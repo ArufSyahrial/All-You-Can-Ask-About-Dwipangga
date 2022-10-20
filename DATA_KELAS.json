@@ -1,0 +1,406 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Panggabot di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Panggabot, salam kenal ya! Mau tau tentang kelas dwipangga?",
+        "Helo! Ini Panggabot, Lagi kepo tentang kelas dwipangga?"
+      ]
+    },
+    {
+      "tag": "Panggabot",
+      "patterns": [
+        "Apa itu Panggabot?"
+        
+      ],
+      "responses": [
+        "Panggabot merupakan sebuah aplikasi seputar informasi student di kelas dwipangga di program AI MSIB Batch 3!",
+        "Panggabot adalah teman informasi seputar student di kelas dwipangga di program AI MSIB Batch 3!"
+      ]
+    },
+    {
+      "tag": "Struktur kelas?",
+      "patterns": [
+        "Berapa jumlah student kelas Dwipangga?"
+      ],
+      "responses": [
+        "Jumlah student kelas dwipangga 27 student dengan background yang berbeda "
+      ]
+    },
+    {
+      "tag": "Struktur kelas1?",
+      "patterns": [
+        "Siapa Home Room Coach Dwipangga?"
+      ],
+      "responses": [
+        "Home Room Coach kelas Dwipangga adalah Coach Fendy Hendriyanto"
+      ]
+    },
+    {
+      "tag": "Struktur kelas2?",
+      "patterns": [
+        "Siapa ketua kelas Dwipangga?"
+      ],
+      "responses": [
+        "Ketua kelas kelas Dwipangga adalah Rifan Afiansyah!"
+      ]
+    },
+    {
+      "tag": "Struktur kelas3?",
+      "patterns": [
+        "Siapa wakil ketua Dwipangga?"
+      ],
+      "responses": [
+        "Wakil ketua kelas Dwipangga adalah Dwi Miftahuljanah.S!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
+      ]
+    },
+    {
+      "tag": "Status dwipangga",
+      "patterns": [
+        "Gimana keseruan kelas dwipangga?"
+        
+      ],
+      "responses": [
+        "Dwipangga itu studennya suka tidur."
+      ]
+    },
+        {
+      "tag": "jumlah student",
+      "patterns": [
+        "siapa saja student kelas dwipangga?"
+        
+      ],
+      "responses": [
+        "Abdul Rohman, Aditya Putra Tondang, Ajeng Tiar Septiani, Alayya Trianindi, Ameilia Latiefah, Christine Natasya, Dwi Miftahuljanah.S, Evelyn Tirta Melania, Fazrin Meila Azzahra Sofyan, Hesty Resy Ria , Ivvony Desma Yanes, Maitsa Amila Shaliha, Meini Melania, Mia Maulidia, Muhammad A.M Hikar Syahrial, Muhammad Alvi Adnan, Nadhiya Tama Maulidita, Naufal Rifqi Musyaffa, Nur Putri Dwi Rahayu , Rifan Afiansyah, Ruth Debora Saragi, Shifa Fadhilah Sr, Sukma Andika Putri, Theresia Yunita Pertiwi, Ummu Hanifah Nafizatul Munawara."
+      ]
+    },
+    {
+      "tag": "identitas1",
+      "patterns": [
+        "cek identitas abdul"
+      ],
+      "responses": [
+        "abdul rohman merupakan student dari Universitas Pendidikan Indonesia dengan jurusan S1 pendidikan Teknik Elektro ."
+      ]
+    },
+        {
+      "tag": "identitas2",
+      "patterns": [
+        "cek identitas Aditya"
+      ],
+      "responses": [
+        "Aditya Putra Tondang merupakan student dari Universitas Bina Sarana Informatika dengan jurusan S1 Teknologi Informasi ."
+      ]
+    },
+    {
+      "tag": "identitas3",
+      "patterns": [
+        "cek identitas Ajeng"
+      ],
+      "responses": [
+        "Ajeng Tiar Septiani merupakan student dari Universitas Bina Sarana Informatika dengan jurusan S1 Teknologi Informasi ."
+      ]
+    },
+    {
+      "tag": "identitas4",
+      "patterns": [
+        "cek identitas Alayya"
+      ],
+      "responses": [
+        "Alayya Trianindi merupakan student dari Universitas Singaperbangsa Karawang dengan jurusan S1 Manajemen Pendidikan Islam ."
+      ]
+    },
+    {
+      "tag": "identitas5",
+      "patterns": [
+        "cek identitas Ameilia"
+      ],
+      "responses": [
+        "Ameilia Latiefah merupakan student dari Universitas Esa Unggul dengan jurusan S1 Akuntansi ."
+      ]
+    },
+    {
+      "tag": "identitas6",
+      "patterns": [
+        "cek identitas Christine"
+      ],
+      "responses": [
+        "Ameilia Latiefah merupakan student dari Universitas Persada Indonesia YAI dengan jurusan S1 Desain Komunikasi Visual ."
+      ]
+    },
+        {
+      "tag": "identitas7",
+      "patterns": [
+        "cek identitas Dwi"
+      ],
+      "responses": [
+        "Dwi Miftahuljanah.S merupakan student dari Universitas Lampung dengan jurusan S1 Teknik Geofisika ."
+      ]
+    },
+            {
+      "tag": "identitas8",
+      "patterns": [
+        "cek identitas Evelyn"
+      ],
+      "responses": [
+        "Evelyn Tirta Melania merupakan student dari Universitas Persada Indonesia YAI dengan jurusan S1 Akuntansi ."
+      ]
+    },
+    {
+      "tag": "identitas9",
+      "patterns": [
+        "cek identitas Hesty"
+      ],
+      "responses": [
+        "Hesty Resy Ria merupakan student dari Universitas Baturaja dengan jurusan S1 Manajemen ."
+      ]
+    },
+        {
+      "tag": "identitas10",
+      "patterns": [
+        "cek identitas Ivvony"
+      ],
+      "responses": [
+        "Ivvony Desma Yanes merupakan student dari Universitas Pamulang dengan jurusan S1 Teknik Informatika ."
+      ]
+    },
+            {
+      "tag": "identitas11",
+      "patterns": [
+        "cek identitas Maitsa"
+      ],
+      "responses": [
+        "Maitsa Amila Shaliha merupakan student dari Universitas Pendidikan Indonesia dengan jurusan S1 Teknologi Pendidikan ."
+      ]
+    },
+    {
+      "tag": "identitas12",
+      "patterns": [
+        "cek identitas Meini"
+      ],
+      "responses": [
+        "Meini Melania merupakan student dari Universitas Baturaja dengan jurusan S1 Manajemen ."
+      ]
+    },
+    {
+      "tag": "identitas13",
+      "patterns": [
+        "cek identitas Mia"
+      ],
+      "responses": [
+        "Mia Maulidia merupakan student dari Universitas Budi Luhur dengan jurusan S1 Teknik Informatika ."
+      ]
+    },
+        {
+      "tag": "identitas14",
+      "patterns": [
+        "cek identitas Aruf"
+      ],
+      "responses": [
+        "Muhammad A.M Hikar Syahrial merupakan student dari nstitut Teknologi Sumatera dengan jurusan S1 Teknik Informatika ."
+      ]
+    },
+    {
+      "tag": "identitas15",
+      "patterns": [
+        "cek identitas Alvi"
+      ],
+      "responses": [
+        "Muhammad Alvi Adnan merupakan student dari Universitas Esa Unggul dengan jurusan S1 Teknik Informatika ."
+      ]
+    },
+    {
+      "tag": "identitas16",
+      "patterns": [
+        "cek identitas Nadhiya"
+      ],
+      "responses": [
+        "Nadhiya Tama Maulidita merupakan student dari Universitas Muhammadiyah Jakarta dengan jurusan S1 Perbankan Syariah ."
+      ]
+    },
+    {
+      "tag": "identitas17",
+      "patterns": [
+        "cek identitas Naufal"
+      ],
+      "responses": [
+        "Naufal Rifqi Musyaffa merupakan student dari Institut Teknologi Sumatera dengan jurusan S1 Sains Aktuaria ."
+      ]
+    },
+        {
+      "tag": "identitas18",
+      "patterns": [
+        "cek identitas Nur"
+      ],
+      "responses": [
+        "Nur Putri Dwi Rahayu merupakan student dari Universitas Singaperbangsa Karawang dengan jurusan S1 Manajemen Pendidikan Islam ."
+      ]
+    },
+    {
+      "tag": "identitas19",
+      "patterns": [
+        "cek identitas Rifan"
+      ],
+      "responses": [
+        "Rifan Afiansyah merupakan student dari Universitas Muhammadiyah Sukabumi dengan jurusan S1 Teknik Informatika ."
+      ]
+    },
+     {
+      "tag": "identitas20",
+      "patterns": [
+        "cek identitas Ruth"
+      ],
+      "responses": [
+        "Ruth Debora Saragi merupakan student dari Universitas Sriwijaya dengan jurusan S1 Sistem Informasi ."
+      ]
+    },
+    {
+      "tag": "identitas21",
+      "patterns": [
+        "cek identitas Shifa"
+      ],
+      "responses": [
+        "Shifa Fadhilah Sr merupakan student dari Universitas Pendidikan Indonesia dengan jurusan S1 PGSD ."
+      ]
+    },
+    {
+      "tag": "identitas22",
+      "patterns": [
+        "cek identitas Sukma"
+      ],
+      "responses": [
+        "Sukma Andika Putri merupakan student dari Universitas Singaperbangsa Karawang dengan jurusan S1 Manajemen Pendidikan Islam ."
+      ]
+    },
+    {
+      "tag": "identitas23",
+      "patterns": [
+        "cek identitas Theresia"
+      ],
+      "responses": [
+        "Theresia Yunita Pertiwi merupakan student dari Universitas Sultan Ageng Tirtayasa dengan jurusan S1 Ilmu Komunikasi ."
+      ]
+    },
+    {
+      "tag": "identitas24",
+      "patterns": [
+        "cek identitas Ummu"
+      ],
+      "responses": [
+        "Ummu Hanifah Nafizatul Munawarah merupakan student dari Universitas Pendidikan Indonesia dengan jurusan S1 PGSD ."
+      ]
+    },
+        {
+      "tag": "identitas25",
+      "patterns": [
+        "cek identitas Winda"
+      ],
+      "responses": [
+        "Winda Aprilia Rosa merupakan student dari Universitas Lampung dengan jurusan S1 Teknik Geofisika ."
+      ]
+    },
+    {
+      "tag": "identitas26",
+      "patterns": [
+        "cek identitas Zarkasih"
+      ],
+      "responses": [
+        "Zarkasih Nur Hikmatullah merupakan student dari Universitas Teknologi Indonesia dengan jurusan S1 Teknik Informatika ."
+      ]
+    },
+        {
+      "tag": "identitas27",
+      "patterns": [
+        "cek identitas Coach Fendy"
+      ],
+      "responses": [
+        "Fendy Hendriyanto Merupakan Coach di AI 4 StartUps yang sedang berfokus dibidang Computer Vision for Humaniora dan Mchnine Learning, yang memiliki tujuan untuk membantu masyarakat Indonesia mengenal Teknologi AI, selain itu Fendy Hendriyanto juga menyukai Sejarah dan Kebudayaan  ."
+      ]
+    },
+        {
+      "tag": "fun fact",
+      "patterns": [
+        "fun fact kelas dwipangga"
+      ],
+      "responses": [
+        "kelas dwipangga ini harus diberi tekanan jika dilihat dari segi keaktifan, karna jika tidak ada tekanan, respondsip yang dilakukan sangat kurang",
+        "kelas dwipangga ini jika dilihat dari segi kecerdasan sudah jangan diragukan, tapi kendalanya yaitu mager dan malu",
+        "kelas dwipangga ini bisa dibilang kelas yang paling pasif, tapi memiliki coach yang paling asik, hmmm sulit di mengerti bukann",
+        "kelas dwipangga ini masih berketergantungan dengan orang cerdas",
+        "kelas dwipangga ini sulit di tebak dari segi respondsip, kadang aktif kadang pasif, tergantung mood "
+      ]
+    },
+            {
+      "tag": "ptn/pts",
+      "patterns": [
+        "berapa jumlah PTN/PTS kelas Dwipangga"
+      ],
+      "responses": [
+        "48,1% Student dari PTS dan 51,9% Student dari PTN"
+      ]
+    },
+                {
+      "tag": "IT/nonIT",
+      "patterns": [
+        "berapa jumlah Student IT dan non IT di kelas dwipangga"
+      ],
+      "responses": [
+        "10 Student dari IT dan 17 Student dari non IT"
+      ]
+    }
+  ]
+}
